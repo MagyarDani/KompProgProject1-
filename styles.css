@@ -1,0 +1,46 @@
+body
+{
+    background-color: rgba(100,100,100,0.5);
+}
+header
+{
+    text-align: center;
+}
+#wrapper
+{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border: 2px solid gray;
+    padding: 20px;
+}
+table
+{
+    border-bottom: 2px solid black;
+    padding: 0px;
+}
+nav
+{
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+nav ul
+{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+}
+nav ul li
+{
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    padding:5px;
+    text-align: center; 
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
