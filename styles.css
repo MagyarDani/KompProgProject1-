@@ -19,36 +19,24 @@ h1
     border: 2px solid gray;
     padding: 20px;
 }
-nav
+.nav-link
 {
-    text-align: center;
-    margin: auto;
-    padding: 0px;
+    color: black;;
 }
-nav ul
+.nav-link:hover
 {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0px;
-    margin: 0px;
-    margin-top: 10px;
+    color: white;
+    background-color: darkgray;
 }
-nav ul li
+.active
 {
-    display: inline-block;
-    width: 24%;
-    font-size: 20px;
-    padding:5px;
-    text-align: center;
-}
-nav ul li a
-{
-    text-decoration: none;
-    color: black;
+    border:1px solid darkgray;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
 }
 hr
 {
-    height: 2px;
+    height: 1px;
     color: black;
     margin: 0px;
     background-color: black;
