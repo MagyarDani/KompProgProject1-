@@ -30,9 +30,10 @@ h1
 }
 .active
 {
-    border:1px solid darkgray;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
+    border: 1px solid black;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom: none;
 }
 hr
 {
@@ -41,4 +42,8 @@ hr
     margin: 0px;
     background-color: black;
     border: black;
+}
+h2
+{
+    font-size:  24px;
 }
