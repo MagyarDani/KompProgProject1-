@@ -19,12 +19,6 @@ h1
     border: 2px solid gray;
     padding: 20px;
 }
-table
-{
-    border-bottom: 2px solid black;
-    padding: 0px;
-    width: 100%;
-}
 nav
 {
     text-align: center;
@@ -51,4 +45,12 @@ nav ul li a
 {
     text-decoration: none;
     color: black;
+}
+hr
+{
+    height: 2px;
+    color: black;
+    margin: 0px;
+    background-color: black;
+    border: black;
 }
