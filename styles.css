@@ -47,3 +47,19 @@ h2
 {
     font-size:  24px;
 }
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table
+{
+    width: 100%;
+    vertical-align: middle;
+}
+.bizonyitas
+{
+    width: 25%;
+    min-width: 150px;
+}
