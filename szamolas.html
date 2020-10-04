@@ -24,8 +24,35 @@
           <hr>
     </nav>
     <main>
-        
-        <img src="haromszog.png">
+        <div class="container-fluid">    
+            <div class="row">
+                <div class="col-lg-12 col-xl-5">
+                    <img src="haromszog.png">
+                </div>
+                <div class="col-lg-12 col-xl-2">
+                    <form>
+                        <label>a oldal hossza:</label><br>
+                        <input type="number" id="a_oldal" name="a_oldal" min="1" max="99999" maxlength="5"><br>
+                        <label>b oldal hossza:</label><br>
+                        <input type="number" id="b_oldal" name="b_oldal" min="1" max="99999" maxlength="5"><br>
+                        <label>c oldal hossza:</label><br>
+                        <input type="number" id="c_oldal" name="c_oldal" min="1" max="99999" maxlength="5"><br>
+                </div>
+                <div class="col-lg-12 col-xl-3">
+                        <label>α szög nagysága:</label><br>
+                        <input type="number" id="a_szog" name="a_szog" min="1" max="90" value="90" disabled maxlength="2"><br> 
+                        <label>β szög nagysága:</label><br>
+                        <input type="number" id="b_szog" name="b_szog" min="1" max="89" maxlength="2"><br>
+                        <label>γ szög nagysága:</label><br>
+                        <input type="number" id="c_szog" name="c_szog" min="1" max="89" maxlength="2"><br>
+                </div>
+                <div class="col-lg-12 col-xl-2">
+                          <input type="reset" id="reset" name="reset" value="Törlés">
+                          <input type="submit" id="submit" name="submit" value="Számolás">
+                      </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
