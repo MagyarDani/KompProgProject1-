@@ -7,10 +7,14 @@ function Szamolas(){
     {
         window.alert("írj be adatokat!");
     }
+    else if (aoldal == 0 && boldal == 0 || boldal == 0 && coldal == 0 || aoldal == 0 && coldal == 0)
+    {
+        window.alert("Nincs elég adat!")
+    }
     else if (aoldal == 0)
     {
         var a = Math.sqrt(Math.pow(boldal, 2) + Math.pow(coldal, 2));
-        window.alert("Az 'a' oldal hossza: " + a);
+        document.getElementById("kiiras").innerHTML = "Az 'a' oldal hossza: " + a;
     }
     else if (boldal == 0)
     {
@@ -21,7 +25,7 @@ function Szamolas(){
         else
         {
             var b = Math.sqrt(Math.pow(aoldal, 2) - Math.pow(coldal, 2));
-            window.alert("Az 'b' oldal hossza: " + b);
+            document.getElementById("kiiras").innerHTML = "Az 'b' oldal hossza: " + b;
         }
     }
     else
@@ -33,7 +37,7 @@ function Szamolas(){
         else
         {
             var c = Math.sqrt(Math.pow(aoldal, 2) - Math.pow(boldal, 2));
-            window.alert("Az 'c' oldal hossza: " + c);
+            document.getElementById("kiiras").innerHTML = "Az 'c' oldal hossza: " + c;
         }
     }
 }
